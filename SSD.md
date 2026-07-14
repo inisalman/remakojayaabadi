@@ -1,4 +1,4 @@
-# Software Design Document — Rema KJ Abadi
+# Software Design Document — Remako Jaya Abadi
 
 **Project:** [remakojayaabadi.com](http://remakojayaabadi.com/)  
 **Client:** Perusahaan konstruksi  
