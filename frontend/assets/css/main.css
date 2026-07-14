@@ -1,1 +1,51 @@
-/* Task 2 will populate this file with Tailwind directives and maintenance page styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8fbff;
+    color: #102a43;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer utilities {
+  .architect-grid {
+    background-image:
+      linear-gradient(rgba(22, 136, 232, 0.08) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(22, 136, 232, 0.08) 1px, transparent 1px);
+    background-size: 2rem 2rem;
+  }
+
+  .float-slow {
+    animation: float-slow 8s ease-in-out infinite;
+  }
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .float-slow {
+    animation: none;
+  }
+}
