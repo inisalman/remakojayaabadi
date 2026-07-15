@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Pembangunan Jalan",
+    "description": "Konstruksi jalan baru dan pelebaran ruas jalan tol untuk meningkatkan kapasitas dan kelancaran lalu lintas.",
+    "icon": "Construction"
+  },
+  {
+    "title": "Rekonstruksi Jalan Tol",
+    "description": "Pemeliharaan dan rekonstruksi ruas jalan tol antar kota untuk memastikan keamanan dan kenyamanan pengguna jalan.",
+    "icon": "Route"
+  },
+  {
+    "title": "Pembangunan Jembatan",
+    "description": "Konstruksi dan pemeliharaan jembatan dengan teknologi dan teknik terbaru untuk hasil yang tahan lama.",
+    "icon": "Landmark"
+  },
+  {
+    "title": "Infrastruktur Pendukung",
+    "description": "Pekerjaan sipil terkait komplek dan area strategis yang mendukung kelancaran operasional.",
+    "icon": "Building2"
+  }
+]
