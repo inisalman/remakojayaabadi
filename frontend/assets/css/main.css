@@ -25,19 +25,6 @@
   }
 }
 
-@layer utilities {
-  .reveal {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 400ms ease, transform 400ms ease;
-  }
-
-  .reveal.is-visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -46,11 +33,5 @@
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
-  }
-
-  .reveal,
-  .reveal.is-visible {
-    opacity: 1;
-    transform: none;
   }
 }
