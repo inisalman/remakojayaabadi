@@ -1,10 +1,10 @@
 <script setup lang="ts">
 useHead({
-  title: 'Rema KJ Abadi | Segera Hadir',
+  title: 'Remako Jaya Abadi | Segera Hadir',
   meta: [
     {
       name: 'description',
-      content: 'Website resmi Rema KJ Abadi sedang dalam pengembangan.',
+      content: 'Website resmi Remako Jaya Abadi sedang dalam pengembangan.',
     },
   ],
 })
@@ -17,9 +17,9 @@ useHead({
     <div class="absolute -right-20 bottom-10 h-80 w-80 rounded-full bg-brand-300/30 blur-3xl" aria-hidden="true" />
 
     <main class="relative mx-auto flex min-h-[calc(100vh-5rem)] w-full max-w-3xl flex-col px-6 pb-12 pt-8 sm:px-10 sm:pt-12">
-      <header class="flex items-center gap-3" aria-label="Rema KJ Abadi">
+      <header class="flex items-center gap-3" aria-label="Remako Jaya Abadi">
         <span class="grid h-10 w-10 place-items-center rounded-xl bg-navy text-sm font-bold text-white shadow-panel">R</span>
-        <span class="text-sm font-bold tracking-[0.2em] text-navy">REMA KJ ABADI</span>
+        <span class="text-sm font-bold tracking-[0.2em] text-navy">Remako Jaya Abadi</span>
       </header>
 
       <section class="my-auto py-20 sm:py-28" aria-labelledby="maintenance-title">
@@ -33,7 +33,7 @@ useHead({
         </h1>
 
         <p class="mt-6 max-w-xl text-base leading-8 text-slate-600 sm:text-lg">
-          Website resmi Rema KJ Abadi sedang dalam pengembangan. Kami akan segera hadir dengan informasi layanan dan portofolio terbaru.
+          Website resmi Remako Jaya Abadi sedang dalam pengembangan. Kami akan segera hadir dengan informasi layanan dan portofolio terbaru.
         </p>
 
         <div class="mt-10 max-w-md rounded-2xl bg-navy p-6 text-white shadow-panel sm:p-7">
@@ -46,7 +46,7 @@ useHead({
     </main>
 
     <footer class="relative mx-auto w-full max-w-3xl px-6 pb-8 text-xs text-slate-500 sm:px-10">
-      © 2026 Rema KJ Abadi. Seluruh hak cipta dilindungi.
+      © 2026 Remako Jaya Abadi. Seluruh hak cipta dilindungi.
     </footer>
   </div>
 </template>
