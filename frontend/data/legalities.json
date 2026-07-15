@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Akta Pendirian",
+    "description": "PT. Remako Jaya Abadi",
+    "image": "/images/legalities/akta-pendirian.webp",
+    "alt": "Akta Pendirian PT. Remako Jaya Abadi"
+  },
+  {
+    "label": "NIB",
+    "description": "Nomor Induk Berusaha",
+    "image": "/images/legalities/nib.webp",
+    "alt": "Nomor Induk Berusaha PT. Remako Jaya Abadi"
+  },
+  {
+    "label": "SKMENKEH",
+    "description": "Surat Kementerian Hukum dan HAM",
+    "image": "/images/legalities/skmenkeh.webp",
+    "alt": "Surat Kementerian Hukum dan HAM PT. Remako Jaya Abadi"
+  },
+  {
+    "label": "SBU Jalan",
+    "description": "Sertifikat Badan Usaha — Bidang Jalan",
+    "image": "/images/legalities/sbu-jalan.webp",
+    "alt": "Sertifikat Badan Usaha Bidang Jalan PT. Remako Jaya Abadi"
+  },
+  {
+    "label": "SBU Jembatan",
+    "description": "Sertifikat Badan Usaha — Bidang Jembatan",
+    "image": "/images/legalities/sbu-jembatan.webp",
+    "alt": "Sertifikat Badan Usaha Bidang Jembatan PT. Remako Jaya Abadi"
+  }
+]

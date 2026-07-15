@@ -1,0 +1,8 @@
+[
+  { "name": "Excavator 200", "quantity": "8 unit", "icon": "Tractor" },
+  { "name": "Excavator 75", "quantity": "2 unit", "icon": "Tractor" },
+  { "name": "Vibro Smoothdrum", "quantity": "4 unit", "icon": "Construction" },
+  { "name": "Self Loader", "quantity": "2 unit", "icon": "Truck" },
+  { "name": "Dump Truck 22", "quantity": "12 unit", "icon": "Truck" },
+  { "name": "Dump Truck 7", "quantity": "7 unit", "icon": "Truck" }
+]

@@ -5,23 +5,36 @@ export default <Partial<Config>>{
     './app.vue',
     './pages/**/*.{vue,js,ts}',
     './components/**/*.{vue,js,ts}',
+    './layouts/**/*.{vue,js,ts}',
   ],
   theme: {
     extend: {
       colors: {
-        ink: '#102A43',
-        navy: '#0B1F3A',
         brand: {
-          50: '#EFF8FF',
-          100: '#D9EEFF',
-          300: '#7DC6FF',
-          500: '#1688E8',
-          600: '#0B6FC5',
-          700: '#07569E',
+          DEFAULT: '#4647AE',
+          dark: '#3536A1',
+          light: '#6B6CC4',
+          tint: '#EFEEFB',
         },
+        surface: {
+          DEFAULT: '#FFFFFF',
+          bg: '#E8EDF2',
+        },
+        ink: {
+          DEFAULT: '#1E1E1E',
+          secondary: '#30454C',
+          muted: '#6B7280',
+        },
+        dark: {
+          DEFAULT: '#1E1B4B',
+          surface: '#2D2A6E',
+          text: '#C7D2FE',
+        },
+        border: '#E2E8F0',
       },
       boxShadow: {
-        panel: '0 24px 70px rgba(11, 31, 58, 0.14)',
+        card: '0 2px 8px rgba(30,27,75,0.08)',
+        'card-hover': '0 8px 24px rgba(30,27,75,0.12)',
       },
     },
   },

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Rekonstruksi Jalan Tol Jagorawi",
+    "year": "2025",
+    "client": "PT. Qinar Raya Mandiri",
+    "category": "Jalan Tol",
+    "excerpt": "Rekonstruksi Jalan Tol Jagorawi",
+    "image": "/images/projects/placeholder-construction.webp",
+    "alt": "Proyek Rekonstruksi Jalan Tol Jagorawi"
+  },
+  {
+    "title": "Rekonstruksi Jalan Tol Jakarta–Cikampek",
+    "year": "2025",
+    "client": "PT. Gienda Putra",
+    "category": "Jalan Tol",
+    "excerpt": "Rekonstruksi Jalan Tol Jakarta–Cikampek",
+    "image": "/images/projects/placeholder-construction.webp",
+    "alt": "Proyek Rekonstruksi Jalan Tol Jakarta–Cikampek"
+  },
+  {
+    "title": "Rekonstruksi Jalan Tol JORR S & JORR E",
+    "year": "2025",
+    "client": "PT. Cipta Marga Prakasa",
+    "category": "Jalan Tol",
+    "excerpt": "Rekonstruksi Jalan Tol JORR S & JORR E",
+    "image": "/images/projects/placeholder-construction.webp",
+    "alt": "Proyek Rekonstruksi Jalan Tol JORR S & JORR E"
+  },
+  {
+    "title": "Rekonstruksi Jalan Tol Kunciran",
+    "year": "2025",
+    "client": "PT. Jasamarga Tollroad Maintenance",
+    "category": "Jalan Tol",
+    "excerpt": "Rekonstruksi Jalan Tol Kunciran",
+    "image": "/images/projects/placeholder-construction.webp",
+    "alt": "Proyek Rekonstruksi Jalan Tol Kunciran"
+  },
+  {
+    "title": "Pelebaran Jalan Tol Ciawi Jalur A",
+    "year": "2024",
+    "client": "PT. KPA",
+    "category": "Jalan Tol",
+    "excerpt": "Pelebaran Jalan Tol Ciawi Jalur A",
+    "image": "/images/projects/placeholder-construction.webp",
+    "alt": "Proyek Pelebaran Jalan Tol Ciawi Jalur A"
+  },
+  {
+    "title": "Pembangunan Komplek Dirgantara Halim",
+    "year": "2017–2020",
+    "client": "PT. Sasana Anugerah Sejati",
+    "category": "Infrastruktur",
+    "excerpt": "Pembangunan Komplek Dirgantara Halim",
+    "image": "/images/projects/placeholder-construction.webp",
+    "alt": "Proyek Pembangunan Komplek Dirgantara Halim"
+  }
+]

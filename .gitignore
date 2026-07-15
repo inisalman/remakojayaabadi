@@ -31,6 +31,9 @@ yarn-error.log*
 # Docker
 *.tar
 
+# Worktrees
+.worktrees/
+
 # Misc
 *.pid
 *.seed

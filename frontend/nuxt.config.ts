@@ -1,11 +1,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-03-01',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
   css: ['~/assets/css/main.css'],
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-    },
-  },
+  googleFonts: { families: { Inter: [400, 500, 600, 700] } },
+  nitro: { prerender: { crawlLinks: false } },
 })
