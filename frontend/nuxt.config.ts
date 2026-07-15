@@ -4,5 +4,5 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts'],
   css: ['~/assets/css/main.css'],
   googleFonts: { families: { Inter: [400, 500, 600, 700] } },
-  nitro: { prerender: { crawlLinks: true } },
+  nitro: { prerender: { crawlLinks: false } },
 })
