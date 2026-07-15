@@ -5,21 +5,93 @@
 
 ## 1. Tentang Perusahaan
 
-PT. Remako Jaya Abadi berdiri pada bulan Desember 2024. Merupakan perusahaan konstruksi profesional yang berpengalaman di bidang Jalan, Jembatan, dan berbagai bidang konstruksi di Indonesia.
+PT. Remako Jaya Abadi berdiri pada bulan Desember 2024. PT. Remako Jaya Abadi merupakan perusahaan konstruksi profesional yang sudah berpengalaman di bidang Jalan, Jembatan dan berbagai bidang konstruksi di Indonesia. Kami adalah perusahaan konstruksi yang berkomitmen untuk memberikan solusi infrastruktur terbaik di bidang pembangunan jalan, jembatan, dan proyek konstruksi lainnya. Dengan pengalaman lebih dari 10 tahun dalam industri ini, kami telah berhasil menyelesaikan berbagai proyek infrastruktur besar yang mendukung pertumbuhan ekonomi dan kesejahteraan masyarakat.
 
-- **Pengalaman**: Lebih dari 10 tahun dalam industri konstruksi
-- **Fokus**: Pembangunan jalan, jembatan, dan proyek konstruksi lainnya
-- **Prioritas**: Kualitas, keselamatan, dan ketepatan waktu
-- **Prinsip**: Keberlanjutan — solusi konstruksi yang ramah lingkungan
-- **Pendekatan**: Kolaborasi transparan dengan klien dan mitra kerja
+Perusahaan kami memiliki tim yang terdiri dari profesional berpengalaman dan terlatih, serta dilengkapi dengan teknologi terbaru dalam setiap tahap pembangunan. Kami berfokus pada kualitas, keselamatan, dan ketepatan waktu, yang selalu menjadi prioritas utama dalam setiap proyek yang kami jalankan.
+
+Dengan mengutamakan prinsip keberlanjutan, kami berkomitmen untuk menciptakan solusi konstruksi yang ramah lingkungan, serta memastikan bahwa setiap pekerjaan yang kami lakukan tidak hanya memenuhi standar kualitas tinggi, tetapi juga memberikan manfaat jangka panjang bagi masyarakat dan lingkungan sekitar.
+
+Kami percaya bahwa kolaborasi yang baik dengan klien dan mitra kerja merupakan kunci kesuksesan dalam setiap proyek. Oleh karena itu, kami selalu menjaga hubungan yang transparan dan saling mendukung untuk mencapai hasil yang optimal. Dengan integritas dan profesionalisme, kami bertekad untuk terus berinovasi dan berkembang sebagai perusahaan konstruksi yang dapat diandalkan.
+
+### Ringkasan Fakta
+
+| Item | Detail |
+|---|---|
+| Nama Legal | PT. Remako Jaya Abadi |
+| Bentuk Usaha | Perseroan Terbatas (PT) |
+| Tahun Berdiri (PT) | Desember 2024 |
+| Pengalaman Tim | 10+ tahun di industri konstruksi |
+| Bidang Utama | Jalan, Jembatan, Konstruksi Umum |
+| Lokasi | Bekasi, Jawa Barat |
+| Klien Utama | Jasamarga, Hutama Karya, dan perusahaan konstruksi nasional lainnya |
+| Jumlah Proyek Tercatat | 22+ proyek (2017–2025) |
+| Peralatan | 35 unit heavy equipment |
+| Tim Inti | 5 personil kunci |
+
+### Bidang Layanan
+
+Perusahaan menangani berbagai jenis pekerjaan konstruksi, antara lain:
+
+- **Pembangunan Jalan** — Konstruksi jalan baru dan pelebaran ruas jalan tol
+- **Rekonstruksi Jalan Tol** — Pemeliharaan dan rekonstruksi ruas jalan tol antar kota
+- **Pembangunan Jembatan** — Konstruksi dan pemeliharaan jembatan
+- **Infrastruktur Pendukung** — Pekerjaan sipil terkait komplek dan area strategis
+- **Pelebaran Jalan** — Penambahan kapasitas ruas jalan tol yang sudah beroperasi
+
+### Area Operasional
+
+Proyek-proyek yang telah dikerjakan mencakup ruas jalan tol strategis di wilayah:
+
+- **Jagorawi** (Jakarta–Bogor–Ciawi)
+- **Jakarta–Cikampek**
+- **Jakarta–Tangerang**
+- **JORR WS** (Jakarta Outer Ring Road West Sector)
+- **JORR S** (Jakarta Outer Ring Road South)
+- **JORR E** (Jakarta Outer Ring Road East)
+- **MLJ** (Manado–Bitung)
+- **Kunciran**
+- **Ciawi**
+- **Komplek Dirgantara Halim** (Jakarta)
+
+### Pilar Komitmen Perusahaan
+
+**Kualitas**
+Setiap proyek dikerjakan dengan standar kualitas tinggi. Perusahaan memastikan pekerjaan tidak hanya memenuhi spesifikasi teknis, tetapi juga memberikan hasil yang tahan lama.
+
+**Keselamatan**
+Keselamatan kerja menjadi prioritas utama. Tim dilengkapi dengan prosedur K3 dan teknologi pendukung untuk meminimalkan risiko di setiap tahap pembangunan.
+
+**Ketepatan Waktu**
+Efisiensi dan ketepatan waktu penyelesaian menjadi indikator keberhasilan proyek. Perusahaan berkomitmen menyelesaikan pekerjaan sesuai jadwal yang disepakati.
+
+**Keberlanjutan**
+Perusahaan mengutamakan solusi konstruksi yang ramah lingkungan dan memberikan manfaat jangka panjang bagi masyarakat serta lingkungan sekitar lokasi proyek.
+
+**Inovasi**
+Penerapan teknologi dan teknik konstruksi terbaru untuk meningkatkan produktivitas dan kualitas hasil kerja.
+
+**Kolaborasi**
+Hubungan transparan dan saling mendukung dengan klien, mitra kerja, dan pemangku kepentingan. Komunikasi terbuka menjadi dasar pencapaian hasil optimal.
+
+### Kapasitas & Sumber Daya
+
+Perusahaan didukung oleh:
+
+- **Tim Profesional** — Personil berpengalaman dan terlatih di bidang konstruksi jalan dan jembatan
+- **35 Unit Heavy Equipment** — Termasuk excavator, dump truck, vibro smoothdrum, dan self loader (lihat detail di Section 5)
+- **Jejaring Klien** — 12 perusahaan mitra, termasuk BUMN dan perusahaan konstruksi nasional
+- **Sertifikasi Legal** — Akta Pendirian, NIB, SKMENKEH, SBU Jalan, SBU Jembatan
+- **Riwayat Proyek** — 22+ proyek dari 2017 hingga 2025, tersebar di berbagai ruas jalan tol strategis
 
 ### Nilai Perusahaan
 
 Perusahaan berkomitmen untuk:
+
 - Memberikan solusi infrastruktur terbaik
 - Menggunakan teknologi terbaru di setiap tahap pembangunan
 - Memastikan setiap pekerjaan memberikan manfaat jangka panjang bagi masyarakat dan lingkungan
 - Menjaga integritas dan profesionalisme dalam berinovasi dan berkembang
+- Menjadi perusahaan konstruksi yang dapat diandalkan
 
 ## 2. Visi & Misi
 
