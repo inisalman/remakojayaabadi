@@ -25,8 +25,12 @@ const filteredProjects = computed(() => activeCategory.value === 'Semua'
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="bg-dark py-20 text-white lg:py-28">
-      <div class="mx-auto max-w-7xl px-6 sm:px-12">
+    <section class="relative bg-dark py-20 text-white lg:py-28">
+      <div class="absolute inset-0 z-0">
+        <img src="/images/hero-proyek.webp" alt="" class="h-full w-full object-cover opacity-30" />
+        <div class="absolute inset-0 bg-gradient-to-b from-dark/80 via-dark/60 to-dark"></div>
+      </div>
+      <div class="relative z-10 mx-auto max-w-7xl px-6 sm:px-12">
         <h1 class="text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">Proyek Kami</h1>
         <p class="mt-6 max-w-2xl text-lg text-dark-text">Jejak rekam proyek infrastruktur yang telah kami kerjakan di seluruh Indonesia</p>
       </div>
