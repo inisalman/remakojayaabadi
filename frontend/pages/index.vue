@@ -13,7 +13,7 @@ useHead({
 
 const activeCategory = ref('Semua')
 const categories = ['Semua', 'Jalan Tol', 'Jembatan', 'Infrastruktur']
-const heroImage = '/images/hero/construction-hero-v2.webp'
+const heroImage = '/images/hero/bridge-construction-v3.webp'
 const aboutImage = '/images/about/heavy-equipment.webp'
 const heroProject = projects[0]
 const filteredProjects = computed(() => activeCategory.value === 'Semua'
@@ -27,7 +27,7 @@ const compactProjects = computed(() => activeCategory.value === 'Semua'
 
 <template>
   <section class="relative isolate overflow-hidden bg-dark text-white">
-    <img :src="heroImage" alt="Konstruksi infrastruktur" fetchpriority="high" class="absolute inset-0 -z-20 h-full w-full object-cover">
+    <img :src="heroImage" alt="Pembangunan jembatan oleh PT. Remako Jaya Abadi" fetchpriority="high" class="absolute inset-0 -z-20 h-full w-full object-cover">
     <div class="absolute inset-0 -z-10 bg-dark/75" />
     <div class="mx-auto max-w-7xl px-6 py-28 sm:px-12 lg:py-40">
       <div class="max-w-3xl">
