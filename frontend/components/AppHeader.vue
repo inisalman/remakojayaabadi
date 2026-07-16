@@ -4,8 +4,8 @@ import { Menu, X } from 'lucide-vue-next'
 const open = ref(false)
 const links = [
   { label: 'Tentang Kami', to: '/#tentang-kami' },
-  { label: 'Layanan', to: '/#layanan' },
-  { label: 'Proyek', to: '/#proyek' },
+  { label: 'Layanan', to: '/layanan' },
+  { label: 'Proyek', to: '/proyek' },
   { label: 'Kontak', to: '/#kontak' },
 ]
 </script>
