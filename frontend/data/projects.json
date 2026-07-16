@@ -5,7 +5,7 @@
     "client": "PT. Qinar Raya Mandiri",
     "category": "Jalan Tol",
     "excerpt": "Rekonstruksi Jalan Tol Jagorawi",
-    "image": "/images/projects/placeholder-construction.webp",
+    "image": "/images/projects/jagorawi-toll.webp",
     "alt": "Proyek Rekonstruksi Jalan Tol Jagorawi"
   },
   {
@@ -14,7 +14,7 @@
     "client": "PT. Gienda Putra",
     "category": "Jalan Tol",
     "excerpt": "Rekonstruksi Jalan Tol Jakarta–Cikampek",
-    "image": "/images/projects/placeholder-construction.webp",
+    "image": "/images/projects/cikampek-toll.webp",
     "alt": "Proyek Rekonstruksi Jalan Tol Jakarta–Cikampek"
   },
   {
@@ -23,7 +23,7 @@
     "client": "PT. Cipta Marga Prakasa",
     "category": "Jalan Tol",
     "excerpt": "Rekonstruksi Jalan Tol JORR S & JORR E",
-    "image": "/images/projects/placeholder-construction.webp",
+    "image": "/images/projects/jorr-toll.webp",
     "alt": "Proyek Rekonstruksi Jalan Tol JORR S & JORR E"
   },
   {
@@ -32,7 +32,7 @@
     "client": "PT. Jasamarga Tollroad Maintenance",
     "category": "Jalan Tol",
     "excerpt": "Rekonstruksi Jalan Tol Kunciran",
-    "image": "/images/projects/placeholder-construction.webp",
+    "image": "/images/projects/kunciran-toll.webp",
     "alt": "Proyek Rekonstruksi Jalan Tol Kunciran"
   },
   {
@@ -41,7 +41,7 @@
     "client": "PT. KPA",
     "category": "Jalan Tol",
     "excerpt": "Pelebaran Jalan Tol Ciawi Jalur A",
-    "image": "/images/projects/placeholder-construction.webp",
+    "image": "/images/projects/ciawi-widening.webp",
     "alt": "Proyek Pelebaran Jalan Tol Ciawi Jalur A"
   },
   {
@@ -50,7 +50,7 @@
     "client": "PT. Sasana Anugerah Sejati",
     "category": "Infrastruktur",
     "excerpt": "Pembangunan Komplek Dirgantara Halim",
-    "image": "/images/projects/placeholder-construction.webp",
+    "image": "/images/projects/dirgantara-halim.webp",
     "alt": "Proyek Pembangunan Komplek Dirgantara Halim"
   }
 ]
