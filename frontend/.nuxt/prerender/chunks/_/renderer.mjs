@@ -6,9 +6,9 @@ import { u as useRuntimeConfig, a as useStorage, d as defineRenderHandler, g as 
 import { createHead as createHead$1, propsToString, renderSSRHead } from 'file:///Users/salman/remakojayaabadi/frontend/node_modules/unhead/dist/server.mjs';
 import { AsyncLocalStorage } from 'node:async_hooks';
 import { stringify, uneval } from 'file:///Users/salman/remakojayaabadi/frontend/node_modules/devalue/index.js';
+import { FlatMetaPlugin, DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file:///Users/salman/remakojayaabadi/frontend/node_modules/unhead/dist/plugins.mjs';
 import { walkResolver } from 'file:///Users/salman/remakojayaabadi/frontend/node_modules/unhead/dist/utils.mjs';
 import { isRef, toValue, hasInjectionContext, inject, ref, watchEffect, getCurrentInstance, onBeforeUnmount, onDeactivated, onActivated } from 'file:///Users/salman/remakojayaabadi/frontend/node_modules/vue/index.mjs';
-import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file:///Users/salman/remakojayaabadi/frontend/node_modules/unhead/dist/plugins.mjs';
 
 const VueResolver = (_, value) => {
   return isRef(value) ? toValue(value) : value;
@@ -66,6 +66,16 @@ function clientUseHead(head, input, options = {}) {
   }
   return entry;
 }
+function useSeoMeta(input = {}, options = {}) {
+  const head = options.head || /* @__PURE__ */ injectHead();
+  head.use(FlatMetaPlugin);
+  const { title, titleTemplate, ...meta } = input;
+  return useHead({
+    title,
+    titleTemplate,
+    _flatMeta: meta
+  }, options);
+}
 
 // @__NO_SIDE_EFFECTS__
 function createHead(options = {}) {
@@ -79,7 +89,7 @@ function createHead(options = {}) {
 
 const NUXT_PAYLOAD_EXTRACTION = true;
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
+const appHead = {"link":[{"rel":"icon","type":"image/svg+xml","href":"/favicon.svg"},{"rel":"apple-touch-icon","href":"/apple-touch-icon.png"},{"rel":"manifest","href":"/manifest.json"}],"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"},{"name":"description","content":"PT. Remako Jaya Abadi — perusahaan konstruksi profesional spesialis jalan & jembatan dengan 10+ tahun pengalaman. Mengerjakan 22+ proyek tol nasional."},{"name":"keywords","content":"kontraktor jalan, kontraktor jembatan, konstruksi tol, PT Remako Jaya Abadi, pembangunan jalan tol, rekonstruksi jalan, konstruksi infrastruktur, Bekasi, Jawa Barat"},{"name":"author","content":"PT. Remako Jaya Abadi"},{"name":"robots","content":"index, follow"},{"property":"og:type","content":"website"},{"property":"og:site_name","content":"Remako Jaya Abadi"},{"property":"og:locale","content":"id_ID"},{"property":"og:image","content":"https://remakojayaabadi.com/images/og-image.png"},{"property":"og:image:width","content":"1200"},{"property":"og:image:height","content":"630"},{"property":"og:image:alt","content":"PT. Remako Jaya Abadi - Kontraktor Jalan & Jembatan Profesional"},{"name":"twitter:card","content":"summary_large_image"},{"name":"twitter:image","content":"https://remakojayaabadi.com/images/og-image.png"},{"name":"theme-color","content":"#4647AE"}],"style":[],"script":[],"noscript":[],"htmlAttrs":{"lang":"id"},"charset":"utf-8","viewport":"width=device-width, initial-scale=1","titleTemplate":"%s | Remako Jaya Abadi","title":"Kontraktor Jalan & Jembatan Profesional"};
 
 const appRootTag = "div";
 
@@ -554,5 +564,5 @@ const renderer = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   default: handler
 }, Symbol.toStringTag, { value: 'Module' }));
 
-export { baseURL as b, headSymbol as h, renderer as r, useHead as u };
+export { useSeoMeta as a, baseURL as b, buildAssetsURL as c, headSymbol as h, publicAssetsURL as p, renderer as r, useHead as u };
 //# sourceMappingURL=renderer.mjs.map

@@ -4,6 +4,9 @@
 /// <reference path="runtime-config.d.ts" />
 /// <reference path="../../node_modules/@nuxt/nitro-server/dist/index.d.mts" />
 /// <reference path="nitro-middleware.d.ts" />
+/// <reference path="../module/nuxt-site-config.d.ts" />
+/// <reference path="nuxt-robots-nitro.d.ts" />
+/// <reference path="../module/nuxt-seo-utils.d.ts" />
 /// <reference path="./schema.d.ts" />
 
 import type { RuntimeConfig } from 'nuxt/schema'

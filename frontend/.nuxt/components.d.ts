@@ -14,6 +14,16 @@ type HydrationStrategies = {
 type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }> & T
 
 
+export const AppFooter: typeof import("../components/AppFooter.vue")['default']
+export const AppHeader: typeof import("../components/AppHeader.vue")['default']
+export const EmptyState: typeof import("../components/EmptyState.vue")['default']
+export const EquipmentRow: typeof import("../components/EquipmentRow.vue")['default']
+export const FeaturedProject: typeof import("../components/FeaturedProject.vue")['default']
+export const ProjectCard: typeof import("../components/ProjectCard.vue")['default']
+export const SectionHeading: typeof import("../components/SectionHeading.vue")['default']
+export const ServiceCard: typeof import("../components/ServiceCard.vue")['default']
+export const StatisticBlock: typeof import("../components/StatisticBlock.vue")['default']
+export const TeamCard: typeof import("../components/TeamCard.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -36,7 +46,40 @@ export const Style: typeof import("../node_modules/nuxt/dist/head/runtime/compon
 export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Head']
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
+export const SchemaOrgArticle: typeof import("@unhead/schema-org/vue")['SchemaOrgArticle']
+export const SchemaOrgBreadcrumb: typeof import("@unhead/schema-org/vue")['SchemaOrgBreadcrumb']
+export const SchemaOrgComment: typeof import("@unhead/schema-org/vue")['SchemaOrgComment']
+export const SchemaOrgEvent: typeof import("@unhead/schema-org/vue")['SchemaOrgEvent']
+export const SchemaOrgFoodEstablishment: typeof import("@unhead/schema-org/vue")['SchemaOrgFoodEstablishment']
+export const SchemaOrgHowTo: typeof import("@unhead/schema-org/vue")['SchemaOrgHowTo']
+export const SchemaOrgImage: typeof import("@unhead/schema-org/vue")['SchemaOrgImage']
+export const SchemaOrgJobPosting: typeof import("@unhead/schema-org/vue")['SchemaOrgJobPosting']
+export const SchemaOrgLocalBusiness: typeof import("@unhead/schema-org/vue")['SchemaOrgLocalBusiness']
+export const SchemaOrgOrganization: typeof import("@unhead/schema-org/vue")['SchemaOrgOrganization']
+export const SchemaOrgPerson: typeof import("@unhead/schema-org/vue")['SchemaOrgPerson']
+export const SchemaOrgProduct: typeof import("@unhead/schema-org/vue")['SchemaOrgProduct']
+export const SchemaOrgQuestion: typeof import("@unhead/schema-org/vue")['SchemaOrgQuestion']
+export const SchemaOrgRecipe: typeof import("@unhead/schema-org/vue")['SchemaOrgRecipe']
+export const SchemaOrgReview: typeof import("@unhead/schema-org/vue")['SchemaOrgReview']
+export const SchemaOrgVideo: typeof import("@unhead/schema-org/vue")['SchemaOrgVideo']
+export const SchemaOrgWebPage: typeof import("@unhead/schema-org/vue")['SchemaOrgWebPage']
+export const SchemaOrgWebSite: typeof import("@unhead/schema-org/vue")['SchemaOrgWebSite']
+export const SchemaOrgMovie: typeof import("@unhead/schema-org/vue")['SchemaOrgMovie']
+export const SchemaOrgCourse: typeof import("@unhead/schema-org/vue")['SchemaOrgCourse']
+export const SchemaOrgItemList: typeof import("@unhead/schema-org/vue")['SchemaOrgItemList']
+export const SchemaOrgBook: typeof import("@unhead/schema-org/vue")['SchemaOrgBook']
+export const SchemaOrgSoftwareApp: typeof import("@unhead/schema-org/vue")['SchemaOrgSoftwareApp']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
+export const LazyAppFooter: LazyComponent<typeof import("../components/AppFooter.vue")['default']>
+export const LazyAppHeader: LazyComponent<typeof import("../components/AppHeader.vue")['default']>
+export const LazyEmptyState: LazyComponent<typeof import("../components/EmptyState.vue")['default']>
+export const LazyEquipmentRow: LazyComponent<typeof import("../components/EquipmentRow.vue")['default']>
+export const LazyFeaturedProject: LazyComponent<typeof import("../components/FeaturedProject.vue")['default']>
+export const LazyProjectCard: LazyComponent<typeof import("../components/ProjectCard.vue")['default']>
+export const LazySectionHeading: LazyComponent<typeof import("../components/SectionHeading.vue")['default']>
+export const LazyServiceCard: LazyComponent<typeof import("../components/ServiceCard.vue")['default']>
+export const LazyStatisticBlock: LazyComponent<typeof import("../components/StatisticBlock.vue")['default']>
+export const LazyTeamCard: LazyComponent<typeof import("../components/TeamCard.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
 export const LazyNuxtErrorBoundary: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
@@ -59,6 +102,29 @@ export const LazyStyle: LazyComponent<typeof import("../node_modules/nuxt/dist/h
 export const LazyHead: LazyComponent<typeof import("../node_modules/nuxt/dist/head/runtime/components")['Head']>
 export const LazyHtml: LazyComponent<typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']>
 export const LazyBody: LazyComponent<typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']>
+export const LazySchemaOrgArticle: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgArticle']>
+export const LazySchemaOrgBreadcrumb: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgBreadcrumb']>
+export const LazySchemaOrgComment: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgComment']>
+export const LazySchemaOrgEvent: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgEvent']>
+export const LazySchemaOrgFoodEstablishment: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgFoodEstablishment']>
+export const LazySchemaOrgHowTo: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgHowTo']>
+export const LazySchemaOrgImage: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgImage']>
+export const LazySchemaOrgJobPosting: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgJobPosting']>
+export const LazySchemaOrgLocalBusiness: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgLocalBusiness']>
+export const LazySchemaOrgOrganization: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgOrganization']>
+export const LazySchemaOrgPerson: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgPerson']>
+export const LazySchemaOrgProduct: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgProduct']>
+export const LazySchemaOrgQuestion: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgQuestion']>
+export const LazySchemaOrgRecipe: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgRecipe']>
+export const LazySchemaOrgReview: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgReview']>
+export const LazySchemaOrgVideo: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgVideo']>
+export const LazySchemaOrgWebPage: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgWebPage']>
+export const LazySchemaOrgWebSite: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgWebSite']>
+export const LazySchemaOrgMovie: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgMovie']>
+export const LazySchemaOrgCourse: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgCourse']>
+export const LazySchemaOrgItemList: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgItemList']>
+export const LazySchemaOrgBook: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgBook']>
+export const LazySchemaOrgSoftwareApp: LazyComponent<typeof import("@unhead/schema-org/vue")['SchemaOrgSoftwareApp']>
 export const LazyNuxtIsland: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']>
 
 export const componentNames: string[]

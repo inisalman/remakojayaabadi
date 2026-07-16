@@ -16,7 +16,10 @@ import 'file:///Users/salman/remakojayaabadi/frontend/node_modules/defu/dist/def
 import 'file:///Users/salman/remakojayaabadi/frontend/node_modules/scule/dist/index.mjs';
 import 'file:///Users/salman/remakojayaabadi/frontend/node_modules/unctx/dist/index.mjs';
 import 'file:///Users/salman/remakojayaabadi/frontend/node_modules/radix3/dist/index.mjs';
+import 'file:///Users/salman/remakojayaabadi/frontend/node_modules/vue/index.mjs';
+import 'file:///Users/salman/remakojayaabadi/frontend/node_modules/consola/dist/index.mjs';
 import 'node:fs';
 import 'node:url';
 import 'file:///Users/salman/remakojayaabadi/frontend/node_modules/pathe/dist/index.mjs';
+import 'file:///Users/salman/remakojayaabadi/frontend/node_modules/nuxtseo-shared/dist/utils.mjs';
 //# sourceMappingURL=index.mjs.map

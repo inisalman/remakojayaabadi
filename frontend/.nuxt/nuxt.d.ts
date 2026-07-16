@@ -1,6 +1,8 @@
-/// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxtjs/tailwindcss" />
+/// <reference types="@nuxtjs/google-fonts" />
+/// <reference types="@nuxtjs/seo" />
 /// <reference types="@nuxt/telemetry" />
+/// <reference types="@nuxt/devtools" />
 /// <reference path="types/nitro-layouts.d.ts" />
 /// <reference path="types/builder-env.d.ts" />
 /// <reference types="nuxt" />
@@ -19,6 +21,13 @@
 /// <reference path="imports.d.ts" />
 /// <reference path="types/imports.d.ts" />
 /// <reference path="schema/nuxt.schema.d.ts" />
+/// <reference path="module/nuxt-site-config.d.ts" />
+/// <reference path="types/nuxt-robots-nuxt.d.ts" />
+/// <reference path="types/nuxt-robots-nitro.d.ts" />
+/// <reference path="types/nuxt-sitemap-augments.d.ts" />
+/// <reference path="module/nuxt-schema-org.d.ts" />
+/// <reference path="module/nuxt-seo-utils.assets.d.ts" />
+/// <reference path="module/nuxt-seo-utils.d.ts" />
 /// <reference path="types/nitro.d.ts" />
 
 export {}

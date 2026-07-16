@@ -27,7 +27,7 @@ const filteredProjects = computed(() => activeCategory.value === 'Semua'
     <!-- Hero Section -->
     <section class="relative bg-dark py-20 text-white lg:py-28">
       <div class="absolute inset-0 z-0">
-        <img src="/images/hero-proyek.webp" alt="" class="h-full w-full object-cover opacity-30" />
+        <img src="/images/hero/bridge-construction-v3.webp" alt="" class="h-full w-full object-cover opacity-30" />
         <div class="absolute inset-0 bg-gradient-to-b from-dark/80 via-dark/60 to-dark"></div>
       </div>
       <div class="relative z-10 mx-auto max-w-7xl px-6 sm:px-12">
