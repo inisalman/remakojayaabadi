@@ -112,37 +112,7 @@ const compactProjects = computed(() => activeCategory.value === 'Semua'
 
   <section class="bg-dark"><div class="mx-auto grid max-w-7xl sm:grid-cols-2 lg:grid-cols-4"><StatisticBlock number="10+" label="Tahun Pengalaman" /><StatisticBlock number="22+" label="Proyek Selesai" /><StatisticBlock number="35" label="Unit Peralatan" /><StatisticBlock number="12" label="Klien Mitra" /></div></section>
 
-  <section id="tentang-kami" class="bg-surface-bg py-20 lg:py-28">
-    <div class="mx-auto max-w-7xl px-6 sm:px-12">
-      <!-- About Content -->
-      <div class="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-center">
-        <div>
-          <SectionHeading eyebrow="TENTANG KAMI" heading="Mitra terpercaya untuk infrastruktur masa depan" />
-          <p class="mt-7 leading-relaxed text-ink-secondary">PT. Remako Jaya Abadi berdiri sejak Desember 2024 dengan tim berpengalaman lebih dari 10 tahun di industri konstruksi. Kami berfokus pada kualitas, keselamatan, dan ketepatan waktu dalam setiap proyek yang kami kerjakan. Dengan mengutamakan prinsip keberlanjutan, kami menciptakan solusi konstruksi yang ramah lingkungan dan memberikan manfaat jangka panjang bagi masyarakat.</p>
-          <NuxtLink to="/layanan" class="mt-8 inline-flex border-b border-brand pb-1 text-sm font-semibold uppercase tracking-[0.08em] text-brand">Selengkapnya</NuxtLink>
-          <div class="mt-10 grid grid-cols-2 border-y border-border">
-            <p class="py-4 text-xs font-semibold uppercase tracking-[0.08em] text-ink-secondary">SBU Jalan</p>
-            <p class="border-l border-border py-4 pl-5 text-xs font-semibold uppercase tracking-[0.08em] text-ink-secondary">SBU Jembatan</p>
-          </div>
-        </div>
-        <img :src="aboutImage" alt="Peralatan konstruksi PT. Remako Jaya Abadi" loading="lazy" class="aspect-[4/3] w-full object-cover">
-      </div>
-
-      <!-- Team Section - Seamless Transition -->
-      <div class="mt-24 lg:mt-32">
-        <div class="flex items-end justify-between gap-8 border-b border-border pb-6">
-          <div class="max-w-2xl">
-            <p class="text-xs font-semibold uppercase tracking-[0.1em] text-brand">TIM KAMI</p>
-            <h3 class="mt-3 text-2xl font-bold tracking-tight text-ink sm:text-3xl">Profesional berpengalaman di balik setiap proyek</h3>
-          </div>
-          <p class="hidden max-w-md text-sm leading-relaxed text-ink-muted lg:block">Tim inti kami terdiri dari profesional yang telah berkontribusi dalam berbagai proyek infrastruktur strategis nasional.</p>
-        </div>
-        <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-          <TeamCard v-for="member in team" :key="member.name" :name="member.name" :role="member.role" />
-        </div>
-      </div>
-    </div>
-  </section>
+  <section id="tentang-kami" class="bg-surface-bg py-20 lg:py-28"><div class="mx-auto max-w-7xl px-6 sm:px-12"><div class="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-end"><div><SectionHeading eyebrow="TENTANG KAMI" heading="Mitra terpercaya untuk infrastruktur masa depan" /><p class="mt-7 leading-relaxed text-ink-secondary">PT. Remako Jaya Abadi berdiri sejak Desember 2024 dengan tim berpengalaman lebih dari 10 tahun di industri konstruksi. Kami berfokus pada kualitas, keselamatan, dan ketepatan waktu dalam setiap proyek yang kami kerjakan. Dengan mengutamakan prinsip keberlanjutan, kami menciptakan solusi konstruksi yang ramah lingkungan dan memberikan manfaat jangka panjang bagi masyarakat.</p><NuxtLink to="/layanan" class="mt-8 inline-flex border-b border-brand pb-1 text-sm font-semibold uppercase tracking-[0.08em] text-brand">Selengkapnya</NuxtLink><div class="mt-10 grid grid-cols-2 border-y border-border"><p class="py-4 text-xs font-semibold uppercase tracking-[0.08em] text-ink-secondary">SBU Jalan</p><p class="border-l border-border py-4 pl-5 text-xs font-semibold uppercase tracking-[0.08em] text-ink-secondary">SBU Jembatan</p></div></div><img :src="aboutImage" alt="Peralatan konstruksi PT. Remako Jaya Abadi" loading="lazy" class="aspect-[4/3] w-full object-cover"></div><div class="mt-20 border-t border-border pt-16 lg:mt-24 lg:pt-20"><div class="flex flex-col items-start gap-6 lg:flex-row lg:items-end lg:justify-between"><div class="max-w-2xl"><SectionHeading eyebrow="TIM KAMI" heading="Profesional berpengalaman di balik setiap proyek" subtext="Tim inti kami terdiri dari profesional yang telah berkontribusi dalam berbagai proyek infrastruktur strategis nasional." /></div></div><div class="mt-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-5"><TeamCard v-for="member in team" :key="member.name" :name="member.name" :role="member.role" /></div></div></div></section>
 
   <section id="layanan" class="bg-surface py-20 lg:py-28"><div class="mx-auto max-w-7xl px-6 sm:px-12"><SectionHeading eyebrow="LAYANAN KAMI" heading="Solusi konstruksi yang terintegrasi" subtext="Kami menangani berbagai jenis pekerjaan konstruksi infrastruktur dengan standar kualitas tinggi." /><div class="mt-12"><ServiceCard v-for="(service, index) in services" :key="service.title" :number="String(index + 1).padStart(2, '0')" :service="service" /></div></div></section>
 
