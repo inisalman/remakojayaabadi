@@ -3,15 +3,13 @@ defineProps<{ name: string; role: string }>()
 </script>
 
 <template>
-  <div class="group text-center">
-    <div class="relative mx-auto aspect-square w-full max-w-[200px] overflow-hidden rounded-full bg-brand-tint ring-4 ring-white shadow-card transition-shadow duration-300 group-hover:shadow-card-hover">
-      <div class="flex h-full w-full items-center justify-center">
-        <span class="text-5xl font-bold text-brand/30">{{ name.charAt(0) }}</span>
-      </div>
+  <div class="group flex items-center gap-4 rounded-lg border border-border bg-surface p-4 transition-all hover:border-brand/30 hover:shadow-card-hover">
+    <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-brand-tint text-brand transition-colors group-hover:bg-brand group-hover:text-white">
+      <span class="text-lg font-bold">{{ name.charAt(0) }}</span>
     </div>
-    <div class="mt-5">
-      <p class="text-base font-bold text-ink-secondary">{{ name }}</p>
-      <p class="mt-1 text-xs font-semibold uppercase tracking-[0.1em] text-brand">{{ role }}</p>
+    <div class="min-w-0">
+      <p class="text-sm font-bold text-ink-secondary">{{ name }}</p>
+      <p class="text-xs font-semibold uppercase tracking-[0.08em] text-brand">{{ role }}</p>
     </div>
   </div>
 </template>
