@@ -7,8 +7,77 @@ import projects from '~/data/projects.json'
 import services from '~/data/services.json'
 
 useHead({
-  title: 'Remako Jaya Abadi',
-  meta: [{ name: 'description', content: 'PT. Remako Jaya Abadi — perusahaan konstruksi profesional spesialis jalan & jembatan.' }],
+  title: 'Kontraktor Jalan & Jembatan Profesional',
+  meta: [
+    { name: 'description', content: 'PT. Remako Jaya Abadi — perusahaan konstruksi profesional spesialis jalan & jembatan dengan 10+ tahun pengalaman. Mengerjakan 22+ proyek tol nasional.' },
+    { property: 'og:title', content: 'Remako Jaya Abadi — Kontraktor Jalan & Jembatan Profesional' },
+    { property: 'og:description', content: 'Perusahaan konstruksi spesialis jalan & jembatan. 10+ tahun pengalaman, 22+ proyek tol nasional. Hubungi kami untuk proyek infrastruktur Anda.' },
+    { property: 'og:url', content: 'https://remakojayaabadi.com' },
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://remakojayaabadi.com' },
+  ],
+})
+
+// JSON-LD Structured Data
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'PT. Remako Jaya Abadi',
+        alternateName: 'Remako Jaya Abadi',
+        url: 'https://remakojayaabadi.com',
+        logo: 'https://remakojayaabadi.com/favicon.svg',
+        description: 'Perusahaan konstruksi profesional spesialis jalan & jembatan dengan 10+ tahun pengalaman.',
+        foundingDate: '2024-12',
+        email: 'pt.remakojayaabadi@gmail.com',
+        telephone: '+628111960307',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'Jl. At Taqwa No. 53',
+          addressLocality: 'Jatisampurna',
+          addressRegion: 'Jawa Barat',
+          postalCode: '17434',
+          addressCountry: 'ID',
+        },
+        areaServed: {
+          '@type': 'Country',
+          name: 'Indonesia',
+        },
+        knowsAbout: ['Konstruksi Jalan', 'Konstruksi Jembatan', 'Jalan Tol', 'Infrastruktur'],
+      }),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        name: 'PT. Remako Jaya Abadi',
+        image: 'https://remakojayaabadi.com/images/og-image.png',
+        url: 'https://remakojayaabadi.com',
+        telephone: '+628111960307',
+        email: 'pt.remakojayaabadi@gmail.com',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'Jl. At Taqwa No. 53',
+          addressLocality: 'Jatisampurna',
+          addressRegion: 'Jawa Barat',
+          postalCode: '17434',
+          addressCountry: 'ID',
+        },
+        priceRange: '$$',
+        openingHoursSpecification: {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          opens: '08:00',
+          closes: '17:00',
+        },
+      }),
+    },
+  ],
 })
 
 const activeCategory = ref('Semua')

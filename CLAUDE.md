@@ -15,6 +15,7 @@ Website company profile untuk **PT. Remako Jaya Abadi** — perusahaan konstruks
 - **Mode**: Static Site Generation (SSG) — `nuxt generate`
 - **CMS**: Strapi (headless, belum deployed)
 - **Database**: PostgreSQL (belum deployed)
+- **SEO**: `@nuxtjs/seo` (sitemap, robots, schema.org, OG image)
 - **Deploy**: Docker (NGINX serve static) di Easypanel
 - **Runtime**: NGINX serve `.output/public`
 

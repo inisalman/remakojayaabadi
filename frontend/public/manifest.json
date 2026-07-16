@@ -1,0 +1,16 @@
+{
+  "name": "PT. Remako Jaya Abadi",
+  "short_name": "Remako",
+  "description": "Perusahaan konstruksi profesional spesialis jalan & jembatan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#E8EDF2",
+  "theme_color": "#4647AE",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
