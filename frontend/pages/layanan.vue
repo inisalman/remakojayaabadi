@@ -5,12 +5,58 @@ useHead({
   title: 'Layanan Kami',
   meta: [
     { name: 'description', content: 'Layanan konstruksi profesional: pembangunan jalan, rekonstruksi jalan tol, pembangunan jembatan, dan infrastruktur pendukung.' },
-    { property: 'og:title', content: 'Layanan Kami - Remako Jaya Abadi' },
+    { name: 'keywords', content: 'layanan konstruksi, pembangunan jalan, rekonstruksi jalan tol, pembangunan jembatan, infrastruktur pendukung, kontraktor jalan, kontraktor jembatan' },
+    { property: 'og:title', content: 'Layanan Kami - PT. Remako Jaya Abadi' },
     { property: 'og:description', content: 'Layanan konstruksi profesional: pembangunan jalan, rekonstruksi jalan tol, pembangunan jembatan, dan infrastruktur pendukung.' },
     { property: 'og:url', content: 'https://remakojayaabadi.com/layanan' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://remakojayaabadi.com/images/og-image.png' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Layanan Kami - PT. Remako Jaya Abadi' },
+    { name: 'twitter:description', content: 'Layanan konstruksi profesional: pembangunan jalan, rekonstruksi jalan tol, pembangunan jembatan, dan infrastruktur pendukung.' },
   ],
   link: [
     { rel: 'canonical', href: 'https://remakojayaabadi.com/layanan' },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Beranda', item: 'https://remakojayaabadi.com' },
+          { '@type': 'ListItem', position: 2, name: 'Layanan', item: 'https://remakojayaabadi.com/layanan' },
+        ],
+      }),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Service',
+        serviceType: 'Konstruksi',
+        provider: {
+          '@type': 'Organization',
+          name: 'PT. Remako Jaya Abadi',
+          url: 'https://remakojayaabadi.com',
+        },
+        areaServed: { '@type': 'Country', name: 'Indonesia' },
+        hasOfferCatalog: {
+          '@type': 'OfferCatalog',
+          name: 'Layanan Konstruksi',
+          itemListElement: services.map((service, index) => ({
+            '@type': 'Offer',
+            position: index + 1,
+            itemOffered: {
+              '@type': 'Service',
+              name: service.title,
+              description: service.longDescription,
+            },
+          })),
+        },
+      }),
+    },
   ],
 })
 </script>

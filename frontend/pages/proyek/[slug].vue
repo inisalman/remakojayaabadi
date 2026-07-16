@@ -13,13 +13,58 @@ useHead({
   title: project.title,
   meta: [
     { name: 'description', content: project.description },
-    { property: 'og:title', content: project.title },
+    { name: 'keywords', content: `proyek ${project.category.toLowerCase()}, ${project.title}, kontraktor ${project.category.toLowerCase()}, konstruksi ${project.category.toLowerCase()}, Remako Jaya Abadi` },
+    { property: 'og:title', content: `${project.title} - PT. Remako Jaya Abadi` },
     { property: 'og:description', content: project.description },
     { property: 'og:image', content: `https://remakojayaabadi.com${project.image}` },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:image:alt', content: project.alt },
     { property: 'og:url', content: `https://remakojayaabadi.com/proyek/${project.slug}` },
+    { property: 'og:type', content: 'article' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: `${project.title} - PT. Remako Jaya Abadi` },
+    { name: 'twitter:description', content: project.description },
+    { name: 'twitter:image', content: `https://remakojayaabadi.com${project.image}` },
   ],
   link: [
     { rel: 'canonical', href: `https://remakojayaabadi.com/proyek/${project.slug}` },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Beranda', item: 'https://remakojayaabadi.com' },
+          { '@type': 'ListItem', position: 2, name: 'Proyek', item: 'https://remakojayaabadi.com/proyek' },
+          { '@type': 'ListItem', position: 3, name: project.title, item: `https://remakojayaabadi.com/proyek/${project.slug}` },
+        ],
+      }),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Project',
+        name: project.title,
+        description: project.description,
+        image: `https://remakojayaabadi.com${project.image}`,
+        url: `https://remakojayaabadi.com/proyek/${project.slug}`,
+        provider: {
+          '@type': 'Organization',
+          name: 'PT. Remako Jaya Abadi',
+          url: 'https://remakojayaabadi.com',
+        },
+        sponsor: {
+          '@type': 'Organization',
+          name: project.client,
+        },
+        datePublished: project.year,
+        category: project.category,
+      }),
+    },
   ],
 })
 </script>

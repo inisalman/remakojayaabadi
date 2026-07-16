@@ -6,12 +6,48 @@ useHead({
   title: 'Proyek Kami',
   meta: [
     { name: 'description', content: 'Portofolio proyek konstruksi PT. Remako Jaya Abadi: jalan tol, jembatan, dan infrastruktur di seluruh Indonesia.' },
-    { property: 'og:title', content: 'Proyek Kami - Remako Jaya Abadi' },
+    { name: 'keywords', content: 'portofolio proyek, proyek jalan tol, proyek jembatan, konstruksi infrastruktur, proyek konstruksi Indonesia, Remako Jaya Abadi' },
+    { property: 'og:title', content: 'Proyek Kami - PT. Remako Jaya Abadi' },
     { property: 'og:description', content: 'Portofolio proyek konstruksi PT. Remako Jaya Abadi: jalan tol, jembatan, dan infrastruktur di seluruh Indonesia.' },
     { property: 'og:url', content: 'https://remakojayaabadi.com/proyek' },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:image', content: 'https://remakojayaabadi.com/images/og-image.png' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Proyek Kami - PT. Remako Jaya Abadi' },
+    { name: 'twitter:description', content: 'Portofolio proyek konstruksi PT. Remako Jaya Abadi: jalan tol, jembatan, dan infrastruktur di seluruh Indonesia.' },
   ],
   link: [
     { rel: 'canonical', href: 'https://remakojayaabadi.com/proyek' },
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Beranda', item: 'https://remakojayaabadi.com' },
+          { '@type': 'ListItem', position: 2, name: 'Proyek', item: 'https://remakojayaabadi.com/proyek' },
+        ],
+      }),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: 'Proyek Konstruksi',
+        numberOfItems: projects.length,
+        itemListElement: projects.map((project, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: project.title,
+          description: project.description,
+          image: `https://remakojayaabadi.com${project.image}`,
+          url: `https://remakojayaabadi.com/proyek/${project.slug}`,
+        })),
+      }),
+    },
   ],
 })
 
