@@ -13,7 +13,7 @@ useHead({
 
 const activeCategory = ref('Semua')
 const categories = ['Semua', 'Jalan Tol', 'Jembatan', 'Infrastruktur']
-const heroImage = '/images/hero/construction-hero.webp'
+const heroImage = '/images/hero/construction-hero-v2.webp'
 const aboutImage = '/images/about/heavy-equipment.webp'
 const heroProject = projects[0]
 const filteredProjects = computed(() => activeCategory.value === 'Semua'
