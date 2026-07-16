@@ -1,56 +1,100 @@
 [
   {
+    "slug": "rekonstruksi-jalan-tol-jagorawi",
     "title": "Rekonstruksi Jalan Tol Jagorawi",
     "year": "2025",
     "client": "PT. Qinar Raya Mandiri",
     "category": "Jalan Tol",
     "excerpt": "Rekonstruksi Jalan Tol Jagorawi",
+    "description": "Proyek rekonstruksi total ruas Jalan Tol Jagorawi yang menghubungkan Jakarta-Bogor-Ciawi. Pekerjaan meliputi penggantian perkerasan jalan, perbaikan struktur, dan peningkatan kapasitas untuk menangani volume lalu lintas yang tinggi. Proyek ini diselesaikan dengan standar kualitas tinggi dan tepat waktu.",
     "image": "/images/projects/jagorawi-toll.webp",
-    "alt": "Proyek Rekonstruksi Jalan Tol Jagorawi"
+    "alt": "Proyek Rekonstruksi Jalan Tol Jagorawi",
+    "gallery": [
+      "/images/projects/jagorawi-toll.webp"
+    ]
   },
   {
+    "slug": "rekonstruksi-jalan-tol-jakarta-cikampek",
     "title": "Rekonstruksi Jalan Tol Jakarta–Cikampek",
     "year": "2025",
     "client": "PT. Gienda Putra",
     "category": "Jalan Tol",
     "excerpt": "Rekonstruksi Jalan Tol Jakarta–Cikampek",
+    "description": "Rekonstruksi ruas Jalan Tol Jakarta-Cikampek yang merupakan salah satu arteri utama menuju timur Jawa Barat. Pekerjaan mencakup penggantian perkerasan, perbaikan drainase, dan rehabilitas fasilitas tol. Proyek ini dilaksanakan dengan memperhatikan keselamatan kerja dan kelancaran lalu lintas selama konstruksi.",
     "image": "/images/projects/cikampek-toll.webp",
-    "alt": "Proyek Rekonstruksi Jalan Tol Jakarta–Cikampek"
+    "alt": "Proyek Rekonstruksi Jalan Tol Jakarta–Cikampek",
+    "gallery": [
+      "/images/projects/cikampek-toll.webp"
+    ]
   },
   {
+    "slug": "rekonstruksi-jalan-tol-jorr-s-jorr-e",
     "title": "Rekonstruksi Jalan Tol JORR S & JORR E",
     "year": "2025",
     "client": "PT. Cipta Marga Prakasa",
     "category": "Jalan Tol",
     "excerpt": "Rekonstruksi Jalan Tol JORR S & JORR E",
+    "description": "Pekerjaan rekonstruksi Jalan Tol Jakarta Outer Ring Road sektor Selatan dan Timur. Proyek ini menangani dua ruas tol strategis yang menghubungkan berbagai wilayah di Jakarta dan sekitarnya. Pekerjaan meliputi penggantian perkerasan, perbaikan struktur, dan peningkatan fasilitas tol.",
     "image": "/images/projects/jorr-toll.webp",
-    "alt": "Proyek Rekonstruksi Jalan Tol JORR S & JORR E"
+    "alt": "Proyek Rekonstruksi Jalan Tol JORR S & JORR E",
+    "gallery": [
+      "/images/projects/jorr-toll.webp"
+    ]
   },
   {
+    "slug": "rekonstruksi-jalan-tol-kunciran",
     "title": "Rekonstruksi Jalan Tol Kunciran",
     "year": "2025",
     "client": "PT. Jasamarga Tollroad Maintenance",
     "category": "Jalan Tol",
     "excerpt": "Rekonstruksi Jalan Tol Kunciran",
+    "description": "Rekonstruksi ruas Jalan Tol Kunciran yang merupakan bagian dari jaringan tol di wilayah Jakarta. Pekerjaan mencakup pemeliharaan berkala dan rekonstruksi total untuk memastikan keamanan dan kenyamanan pengguna jalan tol.",
     "image": "/images/projects/kunciran-toll.webp",
-    "alt": "Proyek Rekonstruksi Jalan Tol Kunciran"
+    "alt": "Proyek Rekonstruksi Jalan Tol Kunciran",
+    "gallery": [
+      "/images/projects/kunciran-toll.webp"
+    ]
   },
   {
-    "title": "Pelebaran Jalan Tol Ciawi Jalur A",
-    "year": "2024",
-    "client": "PT. KPA",
+    "slug": "pembangunan-jembatan-manado-bitung",
+    "title": "Pembangunan Jembatan Manado–Bitung",
+    "year": "2023",
+    "client": "PT. Hutama Karya",
+    "category": "Jembatan",
+    "excerpt": "Pembangunan Jembatan Manado–Bitung",
+    "description": "Pembangunan jembatan yang menghubungkan Manado dan Bitung di Sulawesi Utara. Proyek ini merupakan bagian dari infrastruktur pendukung jalan tol Manado-Bitung. Pekerjaan mencakup konstruksi pondasi dalam, struktur jembatan, dan finishing dengan standar kualitas tinggi.",
+    "image": "/images/projects/manado-bitung-bridge.webp",
+    "alt": "Proyek Pembangunan Jembatan Manado–Bitung",
+    "gallery": [
+      "/images/projects/manado-bitung-bridge.webp"
+    ]
+  },
+  {
+    "slug": "pembangunan-jalan-tol-jakarta-tangerang",
+    "title": "Pembangunan Jalan Tol Jakarta–Tangerang",
+    "year": "2022",
+    "client": "PT. Jasamarga Tollroad Operator",
     "category": "Jalan Tol",
-    "excerpt": "Pelebaran Jalan Tol Ciawi Jalur A",
-    "image": "/images/projects/ciawi-widening.webp",
-    "alt": "Proyek Pelebaran Jalan Tol Ciawi Jalur A"
+    "excerpt": "Pembangunan Jalan Tol Jakarta–Tangerang",
+    "description": "Pembangunan ruas Jalan Tol Jakarta-Tangerang yang menghubungkan ibu kota dengan wilayah Tangerang dan sekitarnya. Proyek ini meliputi pekerjaan konstruksi jalan baru, pelebaran ruas, dan pembangunan fasilitas pendukung tol.",
+    "image": "/images/projects/jakarta-tangerang-toll.webp",
+    "alt": "Proyek Pembangunan Jalan Tol Jakarta–Tangerang",
+    "gallery": [
+      "/images/projects/jakarta-tangerang-toll.webp"
+    ]
   },
   {
+    "slug": "pembangunan-komplek-dirgantara-halim",
     "title": "Pembangunan Komplek Dirgantara Halim",
     "year": "2017–2020",
     "client": "PT. Sasana Anugerah Sejati",
     "category": "Infrastruktur",
     "excerpt": "Pembangunan Komplek Dirgantara Halim",
+    "description": "Pembangunan infrastruktur di kawasan Komplek Dirgantara Halim, Jakarta. Proyek ini mencakup pekerjaan sipil komplek, pembangunan fasilitas, dan infrastruktur pendukung area strategis. Pekerjaan diselesaikan dengan koordinasi multi-disiplin dan pemangku kepentingan.",
     "image": "/images/projects/dirgantara-halim.webp",
-    "alt": "Proyek Pembangunan Komplek Dirgantara Halim"
+    "alt": "Proyek Pembangunan Komplek Dirgantara Halim",
+    "gallery": [
+      "/images/projects/dirgantara-halim.webp"
+    ]
   }
 ]

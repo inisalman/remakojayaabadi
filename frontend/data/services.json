@@ -1,22 +1,62 @@
 [
   {
+    "slug": "pembangunan-jalan",
     "title": "Pembangunan Jalan",
     "description": "Konstruksi jalan baru dan pelebaran ruas jalan tol untuk meningkatkan kapasitas dan kelancaran lalu lintas.",
-    "icon": "Construction"
+    "icon": "Construction",
+    "longDescription": "Layanan pembangunan jalan kami mencakup konstruksi jalan baru dari awal hingga pelebaran ruas jalan yang sudah ada. Kami menangani berbagai jenis proyek jalan dengan standar kualitas tinggi, mulai dari persiapan lahan, pekerjaan tanah, perkerasan jalan, hingga finishing. Tim kami berpengalaman dalam menangani proyek jalan tol dengan volume lalu lintas tinggi, memastikan setiap pekerjaan diselesaikan tepat waktu dengan kualitas terbaik.",
+    "scope": [
+      "Konstruksi jalan baru",
+      "Pelebaran ruas jalan tol",
+      "Pekerjaan tanah dan persiapan lahan",
+      "Perkerasan jalan fleksibel dan kaku",
+      "Sistem drainase jalan",
+      "Marka dan rambu jalan"
+    ]
   },
   {
+    "slug": "rekonstruksi-jalan-tol",
     "title": "Rekonstruksi Jalan Tol",
     "description": "Pemeliharaan dan rekonstruksi ruas jalan tol antar kota untuk memastikan keamanan dan kenyamanan pengguna jalan.",
-    "icon": "Route"
+    "icon": "Route",
+    "longDescription": "Rekonstruksi jalan tol merupakan layanan inti kami dengan pengalaman lebih dari 10 tahun di berbagai ruas tol strategis nasional. Kami menangani pekerjaan pemeliharaan rutin, pemeliharaan berkala, hingga rekonstruksi total ruas jalan tol. Pekerjaan meliputi penggantian perkerasan, perbaikan struktur, peningkatan kapasitas, dan rehabilitas fasilitas tol. Tim kami memahami tantangan bekerja di jalan tol yang tetap beroperasi selama konstruksi, dengan prosedur keselamatan kerja yang ketat.",
+    "scope": [
+      "Rekonstruksi total ruas jalan tol",
+      "Pemeliharaan berkala dan rutin",
+      "Penggantian perkerasan jalan",
+      "Perbaikan struktur jalan",
+      "Peningkatan kapasitas jalan",
+      "Rehabilitas fasilitas tol"
+    ]
   },
   {
+    "slug": "pembangunan-jembatan",
     "title": "Pembangunan Jembatan",
     "description": "Konstruksi dan pemeliharaan jembatan dengan teknologi dan teknik terbaru untuk hasil yang tahan lama.",
-    "icon": "Landmark"
+    "icon": "Landmark",
+    "longDescription": "Layanan pembangunan jembatan kami mencakup konstruksi jembatan baru, rehabilitasi, dan pemeliharaan jembatan dengan berbagai tipe struktur. Kami memiliki kompetensi dalam pembangunan jembatan beton bertulang, jembatan baja, jembatan gelagar, dan jembatan khusus. Tim engineer kami berpengalaman dalam menangani tantangan teknis seperti jembatan di area dengan kondisi tanah lunak, jembatan dengan bentang panjang, hingga jembatan di area perkotaan dengan ruang kerja terbatas.",
+    "scope": [
+      "Konstruksi jembatan baru",
+      "Rehabilitasi dan penguatan jembatan",
+      "Pemeliharaan berkala jembatan",
+      "Pembangunan jembatan beton dan baja",
+      "Pekerjaan pondasi dalam",
+      "Inspeksi dan penilaian kondisi jembatan"
+    ]
   },
   {
+    "slug": "infrastruktur-pendukung",
     "title": "Infrastruktur Pendukung",
     "description": "Pekerjaan sipil terkait komplek dan area strategis yang mendukung kelancaran operasional.",
-    "icon": "Building2"
+    "icon": "Building2",
+    "longDescription": "Selain jalan dan jembatan, kami juga menangani berbagai pekerjaan infrastruktur pendukung yang melengkapi fasilitas transportasi dan area strategis. Layanan ini mencakup pembangunan gedung, fasilitas umum, pekerjaan sipil komplek, dan infrastruktur pendukung lainnya. Kami berkomitmen memberikan solusi terintegrasi untuk kebutuhan infrastruktur klien, dengan koordinasi yang baik antar disiplin ilmu dan pemangku kepentingan.",
+    "scope": [
+      "Pembangunan gedung dan fasilitas",
+      "Pekerjaan sipil komplek",
+      "Infrastruktur area strategis",
+      "Pembangunan fasilitas umum",
+      "Pekerjaan struktur dan arsitektur",
+      "Koordinasi multi-disiplin"
+    ]
   }
 ]
