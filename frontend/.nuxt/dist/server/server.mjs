@@ -2481,7 +2481,7 @@ const plugins = [
   defaults_0Sn7xIMAzGkdbab2otVWD8mX4GpY74A3Jy_gY_4_qYk
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import("./_nuxt/default-D6UmuKEd.js").then((m) => m.default || m))
+  default: defineAsyncComponent(() => import("./_nuxt/default-C8YBCbb2.js").then((m) => m.default || m))
 };
 const routeRulesMatcher = _routeRulesMatcher;
 const LayoutLoader = defineComponent({

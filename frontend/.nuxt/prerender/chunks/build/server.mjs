@@ -2500,7 +2500,7 @@ const plugins = [
   defaults_0Sn7xIMAzGkdbab2otVWD8mX4GpY74A3Jy_gY_4_qYk
 ];
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-D6UmuKEd.mjs').then((m) => m.default || m))
+  default: defineAsyncComponent(() => import('./default-C8YBCbb2.mjs').then((m) => m.default || m))
 };
 const routeRulesMatcher = _routeRulesMatcher;
 const LayoutLoader = defineComponent({
