@@ -110,7 +110,7 @@ useHead({
         <h2 class="max-w-3xl text-4xl font-bold leading-tight tracking-tight sm:text-5xl">Punya proyek yang ingin dibangun?</h2>
         <p class="mt-5 max-w-xl text-dark-text">Mari diskusikan kebutuhan infrastruktur Anda bersama tim kami.</p>
         <div class="mt-8 flex flex-wrap gap-4">
-          <NuxtLink to="/#kontak" class="bg-surface px-6 py-3 text-sm font-semibold uppercase tracking-[0.08em] text-brand hover:bg-brand-tint">Hubungi Kami</NuxtLink>
+          <a href="https://wa.me/628111960307" target="_blank" rel="noopener" class="bg-surface px-6 py-3 text-sm font-semibold uppercase tracking-[0.08em] text-brand hover:bg-brand-tint">Hubungi Kami</a>
         </div>
       </div>
     </section>
