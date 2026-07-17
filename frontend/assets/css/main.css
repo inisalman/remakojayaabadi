@@ -27,6 +27,26 @@
   }
 }
 
+@layer components {
+  .about-gallery {
+    animation: scroll-left 40s linear infinite;
+    width: max-content;
+  }
+
+  .about-gallery:hover {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

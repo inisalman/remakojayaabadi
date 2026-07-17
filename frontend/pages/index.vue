@@ -83,8 +83,17 @@ useHead({
 
 const activeCategory = ref('Semua')
 const categories = ['Semua', 'Jalan Tol', 'Jembatan', 'Infrastruktur']
-const heroImage = '/images/hero/bridge-construction-v3.webp'
-const aboutImage = '/images/about/heavy-equipment.webp'
+const heroImage = '/images/hero/hero-bg.webp'
+const aboutGallery = [
+  '/images/projects/jagorawi-reconstruction.webp',
+  '/images/projects/cikampek-reconstruction.webp',
+  '/images/projects/jorr-reconstruction.webp',
+  '/images/projects/kunciran-reconstruction.webp',
+  '/images/projects/ciawi-widening.webp',
+  '/images/projects/jagorawi-tahap2.webp',
+  '/images/projects/dirgantara-halim.webp',
+  '/images/about/heavy-equipment.webp',
+]
 const heroProject = projects[0]
 const filteredProjects = computed(() => activeCategory.value === 'Semua'
   ? projects
@@ -111,7 +120,7 @@ const compactProjects = computed(() => activeCategory.value === 'Semua'
   </section>
 
 
-  <section id="tentang-kami" class="bg-surface-bg py-20 lg:py-28"><div class="mx-auto max-w-7xl px-6 sm:px-12"><div class="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-end"><div><SectionHeading eyebrow="TENTANG KAMI" heading="Mitra terpercaya untuk infrastruktur masa depan" /><p class="mt-7 leading-relaxed text-ink-secondary">PT. Remako Jaya Abadi berdiri sejak Desember 2024 dengan tim berpengalaman lebih dari 10 tahun di industri konstruksi. Kami berfokus pada kualitas, keselamatan, dan ketepatan waktu dalam setiap proyek yang kami kerjakan. Dengan mengutamakan prinsip keberlanjutan, kami menciptakan solusi konstruksi yang ramah lingkungan dan memberikan manfaat jangka panjang bagi masyarakat.</p><NuxtLink to="/layanan" class="mt-8 inline-flex border-b border-brand pb-1 text-sm font-semibold uppercase tracking-[0.08em] text-brand">Selengkapnya</NuxtLink><div class="mt-10 grid grid-cols-2 border-y border-border"><p class="py-4 text-xs font-semibold uppercase tracking-[0.08em] text-ink-secondary">SBU Jalan</p><p class="border-l border-border py-4 pl-5 text-xs font-semibold uppercase tracking-[0.08em] text-ink-secondary">SBU Jembatan</p></div></div><img :src="aboutImage" alt="Peralatan konstruksi PT. Remako Jaya Abadi" loading="lazy" class="aspect-[4/3] w-full object-cover"></div><div class="mt-20 border-t border-border pt-16 lg:mt-24 lg:pt-20"><div class="flex flex-col items-start gap-6 lg:flex-row lg:items-end lg:justify-between"><div class="max-w-2xl"><SectionHeading eyebrow="TIM KAMI" heading="Profesional berpengalaman di balik setiap proyek" subtext="Tim inti kami terdiri dari profesional yang telah berkontribusi dalam berbagai proyek infrastruktur strategis nasional." /></div></div><div class="mt-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-5"><TeamCard v-for="member in team" :key="member.name" :name="member.name" :role="member.role" /></div></div></div></section>
+  <section id="tentang-kami" class="bg-surface-bg py-20 lg:py-28"><div class="mx-auto max-w-7xl px-6 sm:px-12"><div class="grid gap-12 lg:grid-cols-2 lg:items-center"><div><SectionHeading eyebrow="TENTANG KAMI" heading="Mitra terpercaya untuk infrastruktur masa depan" /><p class="mt-7 leading-relaxed text-ink-secondary">PT. Remako Jaya Abadi berdiri sejak Desember 2024 dengan tim berpengalaman lebih dari 10 tahun di industri konstruksi. Kami berfokus pada kualitas, keselamatan, dan ketepatan waktu dalam setiap proyek yang kami kerjakan. Dengan mengutamakan prinsip keberlanjutan, kami menciptakan solusi konstruksi yang ramah lingkungan dan memberikan manfaat jangka panjang bagi masyarakat.</p><NuxtLink to="/layanan" class="mt-8 inline-flex border-b border-brand pb-1 text-sm font-semibold uppercase tracking-[0.08em] text-brand">Selengkapnya</NuxtLink><div class="mt-10 grid grid-cols-2 border-y border-border"><p class="py-4 text-xs font-semibold uppercase tracking-[0.08em] text-ink-secondary">SBU Jalan</p><p class="border-l border-border py-4 pl-5 text-xs font-semibold uppercase tracking-[0.08em] text-ink-secondary">SBU Jembatan</p></div></div><div class="relative h-80 overflow-hidden rounded-xl sm:h-96 lg:h-[28rem]"><div class="about-gallery flex h-full gap-4"><img v-for="(img, idx) in aboutGallery" :key="idx" :src="img" :alt="`Galeri proyek PT. Remako Jaya Abadi ${idx + 1}`" loading="lazy" class="h-full w-auto flex-shrink-0 rounded-xl object-cover shadow-lg"><img v-for="(img, idx) in aboutGallery" :key="`dup-${idx}`" :src="img" :alt="`Galeri proyek PT. Remako Jaya Abadi ${idx + 1}`" loading="lazy" class="h-full w-auto flex-shrink-0 rounded-xl object-cover shadow-lg"></div></div></div><div class="mt-20 border-t border-border pt-16 lg:mt-24 lg:pt-20"><div class="flex flex-col items-start gap-6 lg:flex-row lg:items-end lg:justify-between"><div class="max-w-2xl"><SectionHeading eyebrow="TIM KAMI" heading="Profesional berpengalaman di balik setiap proyek" subtext="Tim inti kami terdiri dari profesional yang telah berkontribusi dalam berbagai proyek infrastruktur strategis nasional." /></div></div><div class="mt-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-5"><TeamCard v-for="member in team" :key="member.name" :name="member.name" :role="member.role" /></div></div></div></section>
 
   <section id="layanan" class="bg-surface py-20 lg:py-28"><div class="mx-auto max-w-7xl px-6 sm:px-12"><SectionHeading eyebrow="LAYANAN KAMI" heading="Solusi konstruksi yang terintegrasi" subtext="Kami menangani berbagai jenis pekerjaan konstruksi infrastruktur dengan standar kualitas tinggi." /><div class="mt-12"><ServiceCard v-for="(service, index) in services" :key="service.title" :number="String(index + 1).padStart(2, '0')" :service="service" /></div></div></section>
 
