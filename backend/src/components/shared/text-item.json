@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_text_item",
+  "info": {
+    "displayName": "Text Item",
+    "icon": "list",
+    "description": "Text item for lists"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

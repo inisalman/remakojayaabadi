@@ -2,6 +2,10 @@
 import { computed, ref } from 'vue'
 import projects from '~/data/projects.json'
 
+definePageMeta({
+  robots: { index: true, follow: true },
+})
+
 useHead({
   title: 'Proyek Kami',
   meta: [

@@ -4,7 +4,19 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@nuxtjs/seo'],
   css: ['~/assets/css/main.css'],
   googleFonts: { families: { Inter: [400, 500, 600, 700] } },
-  nitro: { prerender: { crawlLinks: false, routes: ['/'] } },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', '/layanan', '/proyek'],
+    },
+  },
+
+  runtimeConfig: {
+    strapiApiToken: process.env.STRAPI_API_TOKEN || '',
+    public: {
+      strapiUrl: process.env.NUXT_PUBLIC_STRAPI_URL || 'https://cms.remakojayaabadi.com',
+    },
+  },
 
   app: {
     head: {

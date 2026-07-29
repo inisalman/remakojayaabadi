@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_cta",
+  "info": {
+    "displayName": "CTA",
+    "icon": "arrow-right",
+    "description": "Call to action button"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

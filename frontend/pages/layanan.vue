@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import services from '~/data/services.json'
 
+definePageMeta({
+  robots: { index: true, follow: true },
+})
+
 useHead({
   title: 'Layanan Kami',
   meta: [
