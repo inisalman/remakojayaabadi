@@ -27,7 +27,7 @@ cd "$FRONTEND"
 TAG="easypanel/app/remakojayaabadi:rebuild-$(date +%s)"
 
 echo "[docker] building $TAG..."
-docker build --network=host -t "$TAG" . 2>&1
+docker build --no-cache --network=host -t "$TAG" . 2>&1
 
 echo "[docker] updating service..."
 docker service update --force --image "$TAG" app_remakojayaabadi 2>&1
