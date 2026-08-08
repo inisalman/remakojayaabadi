@@ -11,6 +11,27 @@ export default defineNuxtConfig({
     },
   },
 
+  hooks: {
+    // Fetch project slugs from Strapi at build time so detail pages get prerendered
+    'nitro:config': async (nitroConfig) => {
+      try {
+        const base = process.env.NUXT_PUBLIC_STRAPI_URL || 'https://cms.remakojayaabadi.com'
+        const res = await fetch(`${base}/api/projects?pagination[pageSize]=100&fields[0]=slug`)
+        const json = await res.json() as { data?: Array<{ slug: string }> }
+        const slugs = (json?.data ?? []).map((p) => `/proyek/${p.slug}`)
+        if (slugs.length) {
+          nitroConfig.prerender = nitroConfig.prerender || {}
+          nitroConfig.prerender.routes = [
+            ...(nitroConfig.prerender.routes || []),
+            ...slugs,
+          ]
+        }
+      } catch (e) {
+        console.warn('[remako] Strapi slug fetch failed, detail pages will 404:', e)
+      }
+    },
+  },
+
   runtimeConfig: {
     strapiApiToken: process.env.STRAPI_API_TOKEN || '',
     public: {

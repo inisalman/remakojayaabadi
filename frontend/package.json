@@ -17,9 +17,14 @@
     "nuxt": "^3.16.0",
     "vitest": "^4.1.10"
   },
+  "overrides": {
+    "tailwindcss": "3.4.19"
+  },
   "dependencies": {
     "@nuxtjs/google-fonts": "^3.2.0",
-    "@nuxtjs/seo": "^5.3.2",
-    "lucide-vue-next": "^1.0.0"
+    "@nuxtjs/seo": "^5.3.10",
+    "lucide-vue-next": "^1.0.0",
+    "nuxt-og-image": "^6.7.6",
+    "nuxt-seo-utils": "^8.3.3"
   }
 }

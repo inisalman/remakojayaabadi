@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import projects from '~/data/projects.json'
+import { fetchStrapiProjects } from '~/composables/useStrapiProjects'
+
+const { data: projects } = await useAsyncData('projects', () => fetchStrapiProjects())
+
+if (!projects.value) {
+  throw createError({ statusCode: 500, statusMessage: 'Gagal memuat data proyek' })
+}
 
 definePageMeta({
   robots: { index: true, follow: true },
@@ -41,13 +47,13 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'ItemList',
         name: 'Proyek Konstruksi',
-        numberOfItems: projects.length,
-        itemListElement: projects.map((project, index) => ({
+        numberOfItems: projects.value.length,
+        itemListElement: projects.value.map((project, index) => ({
           '@type': 'ListItem',
           position: index + 1,
           name: project.title,
           description: project.description,
-          image: `https://remakojayaabadi.com${project.image}`,
+          image: project.image,
           url: `https://remakojayaabadi.com/proyek/${project.slug}`,
         })),
       }),
@@ -58,8 +64,8 @@ useHead({
 const activeCategory = ref('Semua')
 const categories = ['Semua', 'Jalan Tol', 'Jembatan', 'Infrastruktur']
 const filteredProjects = computed(() => activeCategory.value === 'Semua'
-  ? projects
-  : projects.filter((project) => project.category === activeCategory.value))
+  ? projects.value
+  : projects.value.filter((project) => project.category === activeCategory.value))
 </script>
 
 <template>

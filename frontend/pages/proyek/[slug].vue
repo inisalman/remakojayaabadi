@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import projects from '~/data/projects.json'
+import { fetchStrapiProjects } from '~/composables/useStrapiProjects'
 
 const route = useRoute()
 const slug = route.params.slug as string
-const project = projects.find(p => p.slug === slug)
+
+const { data: projects } = await useAsyncData(`projects-${slug}`, () => fetchStrapiProjects())
+const project = projects.value?.find(p => p.slug === slug)
 
 if (!project) {
   throw createError({ statusCode: 404, statusMessage: 'Proyek tidak ditemukan' })
@@ -16,7 +18,7 @@ useHead({
     { name: 'keywords', content: `proyek ${project.category.toLowerCase()}, ${project.title}, kontraktor ${project.category.toLowerCase()}, konstruksi ${project.category.toLowerCase()}, Remako Jaya Abadi` },
     { property: 'og:title', content: `${project.title} - PT. Remako Jaya Abadi` },
     { property: 'og:description', content: project.description },
-    { property: 'og:image', content: `https://remakojayaabadi.com${project.image}` },
+    { property: 'og:image', content: project.image },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
     { property: 'og:image:alt', content: project.alt },
@@ -25,7 +27,7 @@ useHead({
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: `${project.title} - PT. Remako Jaya Abadi` },
     { name: 'twitter:description', content: project.description },
-    { name: 'twitter:image', content: `https://remakojayaabadi.com${project.image}` },
+    { name: 'twitter:image', content: project.image },
   ],
   link: [
     { rel: 'canonical', href: `https://remakojayaabadi.com/proyek/${project.slug}` },
@@ -50,7 +52,7 @@ useHead({
         '@type': 'Project',
         name: project.title,
         description: project.description,
-        image: `https://remakojayaabadi.com${project.image}`,
+        image: project.image,
         url: `https://remakojayaabadi.com/proyek/${project.slug}`,
         provider: {
           '@type': 'Organization',
